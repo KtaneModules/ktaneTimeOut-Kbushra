@@ -14,7 +14,7 @@ MonoBehaviour:
   DisplayName: Time-ify
   Description: Do you really need 11 watches on a bomb to keep track of time?
   GeneratorSetting:
-    TimeLimit: 1800
+    TimeLimit: 2400
     NumStrikes: 3
     TimeBeforeNeedyActivation: 90
     FrontFaceOnly: 0
