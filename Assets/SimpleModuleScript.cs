@@ -116,8 +116,11 @@ public class SimpleModuleScript : MonoBehaviour {
 			}
 		}
 		stage1Int = stage1Table [stage1TableRow, stage1TableColumn];
+<<<<<<< HEAD
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's row is {1}", ModuleId, stage1TableRow);
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's column is {1}", ModuleId, stage1TableColumn);
+=======
+>>>>>>> 1b284a326effecc1c67795ed1b959949edd56a95
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's digit is {1}", ModuleId, stage1Int);
 
 		//stage 2
