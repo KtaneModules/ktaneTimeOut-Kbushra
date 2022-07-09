@@ -116,11 +116,8 @@ public class SimpleModuleScript : MonoBehaviour {
 			}
 		}
 		stage1Int = stage1Table [stage1TableRow, stage1TableColumn];
-<<<<<<< HEAD
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's row is {1}", ModuleId, stage1TableRow);
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's column is {1}", ModuleId, stage1TableColumn);
-=======
->>>>>>> 1b284a326effecc1c67795ed1b959949edd56a95
 		Debug.LogFormat("[Timed Out #{0}] Stage 1's digit is {1}", ModuleId, stage1Int);
 
 		//stage 2
@@ -137,6 +134,7 @@ public class SimpleModuleScript : MonoBehaviour {
 		{
 			stage2Int = (stage2ModifyInt + info.GetPortCount ()) % 10;
 		}
+		Debug.LogFormat("[Timed Out #{0}] Stage 2's shown number is {1}", ModuleId, stage2RandInt);
 		Debug.LogFormat("[Timed Out #{0}] Stage 2's digit is {1}", ModuleId, stage2Int);
 
 		//stage 3
@@ -180,6 +178,7 @@ public class SimpleModuleScript : MonoBehaviour {
 		stage3RightInt = stage3RightInt % 60;
 
 		stage3Int = stage3LeftInt + stage3RightInt;
+		Debug.LogFormat("[Timed Out #{0}] Stage 3's shown digits are {1} and {2}", ModuleId, stage3RandLeftInt, stage3RandRightInt);
 		Debug.LogFormat("[Timed Out #{0}] Stage 3's left and right numbers are {1} and {2}", ModuleId, stage3LeftInt, stage3RightInt);
 
 		//stage 4
